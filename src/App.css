@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Hanken Grotesk;
+  src: url(fonts/Hanken_Grotesk/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.main {
+  background-color: white;
+  border-radius: 32px;
+  font-family: Hanken Grotesk;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 736px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    border-radius: 0;
+  }
+  #root {
+    padding: 0;
+  }
+}
+@media (max-width: 442px) {
+  #root {
+    padding: 0;
+  }
+  .main {
+    height: 100vh;
+  }
+}

@@ -1,0 +1,125 @@
+.back1 {
+  height: 100%;
+  width: 45%;
+  background: transparent;
+  color: black;
+  padding: 50px 30px;
+}
+.back1_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.text1_1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.text1_1 > p {
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 0;
+  color: #303b59;
+}
+.btn {
+  display: flex;
+  width: 100%;
+}
+button {
+  border-radius: 128px;
+  padding: 20px;
+  width: 100%;
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  background: #303b59;
+  border: 1px solid #303b59;
+}
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  border: 1px solid transparent;
+}
+.stats {
+  width: 100%;
+  display: flex;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+li {
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+  align-items: center;
+  border-radius: 12px;
+}
+li > div > p {
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.leftlist {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#first {
+  background: linear-gradient(0deg, #ff55551b, #ff55551b),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+#second {
+  background: linear-gradient(0deg, #ffb01e1c, #ffb01e1c),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+#third {
+  background: linear-gradient(0deg, #00bb8f18, #00bb8f18),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+#fourth {
+  background: linear-gradient(0deg, #1125d612, #1125d612),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+#first > .leftlist > p {
+  color: rgba(255, 85, 85, 1);
+}
+#second > .leftlist > p {
+  color: rgba(255, 178, 30, 1);
+}
+#third > .leftlist > p {
+  color: rgba(0, 187, 143, 1);
+}
+#fourth > .leftlist > p {
+  color: rgba(17, 37, 214, 1);
+}
+@media (max-width: 736px) {
+  .back1 {
+    display: flex;
+    width: 100%;
+    padding: 30px 0px;
+    border-radius: 0;
+    justify-content: center;
+  }
+  .back1_1 {
+    gap: 20px;
+    width: 80%;
+  }
+}
+@media (max-width: 442px) {
+  li {
+    gap: 0;
+  }
+}
