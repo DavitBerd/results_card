@@ -4,6 +4,7 @@
   background: white;
   color: black;
   padding: 50px 30px;
+  border-radius: 32px;
 }
 .back1_1 {
   display: flex;
